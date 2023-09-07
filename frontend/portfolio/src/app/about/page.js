@@ -9,7 +9,7 @@ const About = () => {
     
           {/* Introduction/Bio */}
           <section id="about" className="p-8 text-center">
-            <h1 className="text-3xl font-bold">Hi, I'm Alex</h1>
+            <h1 id="aboutHeader" className="text-3xl font-bold">Hi, I'm Alex</h1>
             <p className="mt-2 text-lg">
               Discovering my true passion in life was a quest that took me on a winding path. For years, I searched relentlessly,
               motivated by an unwavering desire to find my purpose. It all finally clicked when I had the opportunity to shadow a software
