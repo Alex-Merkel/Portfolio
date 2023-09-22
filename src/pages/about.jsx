@@ -1,13 +1,9 @@
-import React from 'react';
-import Navbar from '../components/navbar';
-import Footer from '../components/footer';
-
-const About = () => {
+function About() {
     return (
-        <main className="flex flex-col items-center justify-center h-screen bg-gray-100 dark:bg-gray-800">
-          <Navbar />
-    
-          {/* Introduction/Bio */}
+      <div 
+        //   style={{ backgroundImage: `url(${ Background })`}}
+        //   className='flex justify-center mx-auto bg-cover bg-fixed'
+      >
           <section id="about" className="p-8 text-center">
             <h1 id="aboutHeader" className="text-3xl font-bold">Hi, I'm Alex</h1>
             <p className="mt-2 text-lg">
@@ -34,10 +30,8 @@ const About = () => {
               intended, lol) in my life, fostered by my self-taught mechanic skills and an unwavering admiration for their intricate design and engineering.
             </p>
           </section>
-    
-          <Footer />
-        </main>
-      );
-    };
-
-export default About;
+      </div>
+    )
+  }
+  
+  export default About
