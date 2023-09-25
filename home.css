@@ -1,0 +1,64 @@
+.image-container {
+  height: 500px; 
+  overflow: hidden;
+}
+
+.custom-image {
+  width: 456px;
+  height: 273px;
+  object-fit: cover;
+}
+
+
+body {
+  background: linear-gradient(45deg, #007bff, #00bcd4);
+  font-family: 'Roboto', sans-serif;
+}
+
+.image-container:hover {
+  border: 2px solid #000;
+}
+
+.pic-link {
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+.home-projects-header {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+  margin-bottom: -10px;
+}
+
+.navbar-toggler {
+  border-color: #007bff !important;
+}
+
+.nav-link {
+  color: #007bff !important;
+  transition: color 0.2s ease-in-out;
+
+  
+  &:hover {
+    color: #00bcd4 !important;
+  }
+}
+
+.navbar-brand {
+  color: #007bff !important;
+  transition: color 0.2s ease-in-out;
+
+  
+  &:hover {
+    color: #00bcd4 !important;
+  }
+}
+
+.icon:hover {
+  transform: scale(1.5);
+  transition: transform 0.2s ease-in-out;
+}

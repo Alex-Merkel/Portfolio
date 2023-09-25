@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+<link rel="stylesheet" href="home.css">
+<title>Portfolio</title>
+</head>
+<body>
+    <!-- Navbar: -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a href="home.html" class="navbar-brand" id="nav-header">Portfolio</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="projects.html" class="nav-link">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Pic/link grid: -->
+    <div class="p-3 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 mb-5">
+                    <a href="https://budget-unl0.onrender.com/" class="pic-link">
+                        <div class="image-container d-flex flex-column justify-content-between align-items-center">
+                            <h2 class="text-center m-3">Budget</h2>
+                            <p class="project-description text-center">
+                                A dynamic budgeting application using Flask, Python, SQL, JavaScript, PostgreSQL, HTML, and CSS,
+                                featuring dynamic divs/containers that enable users to easily track and manage their finances.
+                            <br>
+                            <br>
+                                (Be patient please, Render spins down with inactivity)
+                            </p>
+                            <img src="assets/Budget.jpg" alt="A handful of 100 bills fanned out" class="img-fluid p-0 custom-image">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-6 mb-5">
+                    <a href="https://quiet-entremet-f8601f.netlify.app/" class="pic-link">
+                        <div class="image-container d-flex flex-column justify-content-between align-items-center">
+                            <h2 class="text-center m-3">Wellness Tracker</h2>
+                            <p class="project-description text-center">
+                            Comprehensive wellness tracking application utilizing React, TypeScript, Flask, 
+                            Python, HTML, CSS, SQL, PostgreSQL, Auth0, and the Nutritionix API, featuring a user-friendly interface
+                            for tracking food and water intake, complete with an intuitive autocomplete search bar for food selection.
+                            </p>
+                            <img src="assets/Wellness.jpg" alt="Sunset in mountain landscape with someone stretching / doing yoga" class="img-fluid p-0 custom-image">
+                        </div>
+                    </a>
+                </div>
+                  
+                <div class="col-sm-6 mb-5">
+                    <a href="https://smooth-forest-roquefort.glitch.me/" class="pic-link">
+                        <div class="image-container d-flex flex-column justify-content-between align-items-center">
+                            <h2 class="text-center m-3">Library (React)</h2>
+                            <p class="project-description text-center">
+                                One of my early projects, a user-friendly library/book catalog using React.
+                                Providing a glimpse into my journey of growth and proficiency in web development.
+                            </p>
+                            <img src="assets/Library_React.jpg" alt="Inside of multistory library, people and bookcases everywhere" class="img-fluid p-0 custom-image">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 mb-5">
+                    <a href="https://ubiquitous-entremet-ec2600.netlify.app/#/" class="pic-link">
+                        <div class="image-container d-flex flex-column justify-content-between align-items-center">
+                            <h2 class="text-center ">Library (Flask)</h2>
+                            <p class="project-description text-center">
+                                Another early project, a similar user-friendly library/book catalog. 
+                                However, this uses Flask instead of React.
+                            </p>
+                            <img src="assets/Library_Flask.jpg" alt="First person point of view, reading a book with mountain landscape in background" class="img-fluid p-0 custom-image">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>      
+    </div>
+
+    <!-- Footer/copyright: -->
+    <footer class="w-full p-4 d-flex align-items-center justify-content-center">
+        <p class="text-center">
+            &copy; 2023 Alex Merkel. All Rights Reserved.
+        </p>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
